@@ -5,7 +5,7 @@ import streamlit as st
 def ampliar(imagem, k=30):
     return imagem.repeat(k, axis=0).repeat(k, axis=1)
 
-st.title("Imagem como matriz")
+st.title("Giovane Abrantes Bonache")
 
 imagem = np.zeros((8, 8), dtype=np.uint8)
 
